@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-iata-validator"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for IATA Air Cargo AWB & Aviation Validator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["iata","air-cargo","awb","aviation","airline-code","baggage-tag","e-ticket","mod-7","cargo-imp"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/iata-validator"
+Repository = "https://github.com/StanzaAPI/iata-validator-python"
